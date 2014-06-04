@@ -11,6 +11,9 @@ The workflow will go as follows
      where he confirms the request on confirmation_page
 
 [TODO] Email SMTP configuration.
+[TODO] Set up ssh keys.
+[TODO] Remove TestUnit stuff.
+[TODO] Add one simple RSpec test for now.
 
 [candidate]
 3.   an email is sent to candidate_email and hiring_manager_email
