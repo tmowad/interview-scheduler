@@ -1,4 +1,5 @@
 InterviewScheduler::Application.routes.draw do
+  get "interviews/create_request"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
