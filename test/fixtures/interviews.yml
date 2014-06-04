@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  interview_status: MyString
+  recruiter_email: MyString
+  recruiter_key: MyString
+  candidate_email: MyString
+  candidate_key: MyString
+  hiring_manager_email: MyString
+  hiring_manager_key: MyString
+  job_title: MyString
+  job_description: MyString
+
+two:
+  interview_status: MyString
+  recruiter_email: MyString
+  recruiter_key: MyString
+  candidate_email: MyString
+  candidate_key: MyString
+  hiring_manager_email: MyString
+  hiring_manager_key: MyString
+  job_title: MyString
+  job_description: MyString
