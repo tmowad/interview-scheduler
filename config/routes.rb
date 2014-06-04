@@ -1,7 +1,8 @@
 InterviewScheduler::Application.routes.draw do
-  get "interviews/new"
-  post "interviews/create"
-  get "interviews/:id" => 'interviews#show'
+  get 'interviews/new'
+  post 'interviews/create'
+  get 'interviews/confirm_creation' => 'interviews#confirm_creation'
+  get 'interviews/:id' => 'interviews#show'
 
   # resources :interviews
   # The priority is based upon order of creation: first created -> highest priority.
