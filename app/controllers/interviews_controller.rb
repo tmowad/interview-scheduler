@@ -1,4 +1,4 @@
 class InterviewsController < ApplicationController
-  def create_request
+  def new
   end
 end
