@@ -1,2 +1,8 @@
-<h1>Interviews#create_request</h1>
-<p>Find me in app/views/interviews/create_request.html.erb</p>
+<h1>Create Interview Request</h1>
+
+<%= form_for :interview, { :url => interviews_create_path() } do |f| %>
+  <%= f.label :recruiter_email %>
+  <%= f.text_field :recruiter_email %>
+  <br/>
+  <%= f.submit "Submit Request" %>
+<% end %>
