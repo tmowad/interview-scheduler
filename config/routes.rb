@@ -1,8 +1,9 @@
 InterviewScheduler::Application.routes.draw do
   get "interviews/new"
   post "interviews/create"
+  get "interviews/:id" => 'interviews#show'
 
-#  resources :interviews
+  # resources :interviews
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
