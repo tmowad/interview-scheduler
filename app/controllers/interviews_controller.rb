@@ -15,6 +15,8 @@ class InterviewsController < ApplicationController
     @interview.recruiter_key = generate_random_key
 
     if @interview.save then
+      InterviewMailer.confirm_creation(@interview).deliver
+
       redirect_to :action => :show, :id => @interview.id
     else
       flash[:warn] = "Creation failed."

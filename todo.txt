@@ -1,12 +1,16 @@
 The workflow will go as follows
 
 [recruiter]
-1.   recruiter goes to 'initiate_meeting' screen
-2.   recruiter enters recruiter_email, hiring_manager_email, candidate_email 
+1.   [DONE] recruiter goes to 'initiate_meeting' screen
+2.   [DONE] recruiter enters recruiter_email, 
+     hiring_manager_email, candidate_email 
      along with
      various metadata like job_title, description_text, etc.
-2b.  an email is sent to the recruiter, recruiter clicks a link 
+2b.  [DONE]an email is sent to the recruiter, 
+     recruiter clicks a link 
      where he confirms the request on confirmation_page
+
+[TODO] Email SMTP configuration.
 
 [candidate]
 3.   an email is sent to candidate_email and hiring_manager_email

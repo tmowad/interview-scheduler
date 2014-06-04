@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Please confirm your interview request</h1>
+    <p>To confirm your interview request with the hiring manager at 
+       "<%= @interview.hiring_manager_email || "<i>hiring manager email missing</i>" %>"
+       and the candidate at "<%= @interview.candidate_email || "<i>missing candidate email</i>" %>", please
+       <%= link_to("click here", :controller => :interviews, :action => :confirm_creation, :recruiter_key => @interview.recruiter_key) %>.
+    </p>
+    <p>Thanks!</p>
+  </body>
+</html>
+
